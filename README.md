@@ -53,7 +53,7 @@ done
 
 Texas uses a fixed configuration defined in `main.py`. Training runs for the configured number of epochs. The reported test accuracy corresponds to the epoch with the highest validation accuracy; validation loss breaks ties.
 
-The Texas configuration uses 550 epochs and a fixed seed of 42. The implementation trains for the full budget without early stopping.
+The Texas configuration uses a fixed seed of 42. 
 
 The JSON field `best_val_test_acc` contains the selected test accuracy as a fraction between 0 and 1. Results and per-epoch metrics are saved when `--output` is specified.
 
