@@ -1,6 +1,6 @@
 # CSGNN
 
-A standalone PyTorch implementation for node classification. This release provides a Texas demonstration; reproduction configurations for the other datasets will be made available later.
+A PyTorch implementation for node classification. This release provides a Texas demonstration; reproduction configurations for the other datasets will be made available later.
 
 ## Implementation
 
